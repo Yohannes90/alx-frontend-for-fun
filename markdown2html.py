@@ -7,7 +7,7 @@ import os
 
 
 if len(sys.argv) < 2:
-    print("Usage: ./markdown2html.py README.md README.html", file=sys.stderr)
+    print("Usage: ./markdown2html.py README.md README.html")
     sys.exit(1)
 
 markdown_file = sys.argv[1]
